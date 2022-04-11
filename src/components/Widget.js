@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 import InputField from "./InputField";
+import '../css/main.css';
+import '../css/defaults.css';
+import Note from "./Note";
 
 export default class Widget extends Component {
 
@@ -14,9 +17,20 @@ export default class Widget extends Component {
 
     render() {
         return (
-            <div>
-                <div className='notes'>
-                    {this.renderNotes()}
+            <div className='widget b1'>
+                <div className='notes flex-row'>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
+                    <Note/>
                 </div>
                 <InputField/>
             </div>
