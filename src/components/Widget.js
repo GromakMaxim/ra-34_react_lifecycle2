@@ -15,6 +15,14 @@ export default class Widget extends Component {
         return null;
     }
 
+    loadNotesFromAPI(){
+        // fetch...
+    }
+
+    componentDidMount() {
+        this.loadNotesFromAPI();
+    }
+
     render() {
         return (
             <div className='widget b1'>
