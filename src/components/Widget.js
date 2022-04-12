@@ -52,6 +52,7 @@ export default class Widget extends Component {
     render() {
         return (
             <div className='widget b1'>
+                <button className='refresh' onClick={this.loadNotesFromAPI}>Refresh!</button>
                 <div className='notes flex-row'>
                     {this.renderNotes()}
                 </div>
