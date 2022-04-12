@@ -12,6 +12,8 @@ export default class Widget extends Component {
         this.state = {
             notes: null
         }
+        this.loadNotesFromAPI = this.loadNotesFromAPI.bind(this);
+        this.renderNotes = this.renderNotes.bind(this);
     }
 
     renderNotes() {
@@ -20,7 +22,7 @@ export default class Widget extends Component {
 
         if (this.state.notes.length !== 0) {
             this.state.notes.forEach(note => {
-                arr.push(<Note key={note.id} data={note}/>)
+                arr.push(<Note key={note.id} data={note} funcLoad={this.loadNotesFromAPI}/>)
             })
         } else {
             return null;
