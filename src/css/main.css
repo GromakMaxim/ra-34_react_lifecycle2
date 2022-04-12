@@ -1,28 +1,28 @@
-.widget{
+.widget {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
 }
 
-.inputField{
+.inputField {
     padding: 20px;
     width: 30%;
     position: relative;
 }
 
-textarea{
+textarea {
     height: 60px;
     width: 80%;
     padding: 10px;
     resize: none;
 }
 
-.notes{
+.notes {
     margin-bottom: 10px;
     flex-wrap: wrap;
 }
 
-.note{
+.note {
     width: 20%;
     padding: 10px;
     position: relative;
@@ -30,7 +30,7 @@ textarea{
     margin-bottom: 30px;
 }
 
-.delete{
+.delete {
     width: 20px;
     border-radius: 20px;
     text-align: center;
@@ -41,7 +41,7 @@ textarea{
     cursor: pointer;
 }
 
-.send{
+.send {
     border-radius: 20px;
     padding: 10px;
     width: 60px;
@@ -52,6 +52,6 @@ textarea{
     cursor: pointer;
 }
 
-.refresh{
+.refresh {
     margin-bottom: 10px;
 }

@@ -2,15 +2,15 @@
     border: 1px solid black
 }
 
-.flex-row{
+.flex-row {
     display: flex;
     flex-direction: row;
 }
 
-.pos-rel{
+.pos-rel {
     position: relative;
 }
 
-.pos-abs{
+.pos-abs {
     position: absolute;
 }
