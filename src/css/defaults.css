@@ -6,3 +6,11 @@
     display: flex;
     flex-direction: row;
 }
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+}
