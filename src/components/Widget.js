@@ -56,7 +56,7 @@ export default class Widget extends Component {
                 <div className='notes flex-row'>
                     {this.renderNotes()}
                 </div>
-                <InputField/>
+                <InputField funcLoad={this.loadNotesFromAPI}/>
             </div>
         );
     }

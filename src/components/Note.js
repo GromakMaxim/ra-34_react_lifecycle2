@@ -12,9 +12,9 @@ export default function Note(props) {
     }
 
     return (
-        <div className='note b1'>
+        <div className='note b1 pos-rel'>
             {props.data.content}
-            <div id={props.data.id} className='delete b1' onClick={deleteNote}>X</div>
+            <div id={props.data.id} className='delete b1 pos-abs' onClick={deleteNote}>X</div>
         </div>
     );
 }

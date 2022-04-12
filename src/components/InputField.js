@@ -17,8 +17,9 @@ export default function InputField(props) {
         })
 
         let result = await response.text;
-        console.log(result)
         e.target.msg.value = '';
+
+        props.funcLoad();
 
     }
 

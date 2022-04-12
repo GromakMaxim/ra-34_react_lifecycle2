@@ -24,8 +24,8 @@ textarea {
 
 .note {
     width: 20%;
+    min-height: 80px;
     padding: 10px;
-    position: relative;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -35,10 +35,10 @@ textarea {
     border-radius: 20px;
     text-align: center;
     padding: 5px;
-    top: -15px;
-    right: -15px;
     background-color: white;
     cursor: pointer;
+    right: -15px;
+    top: -10px;
 }
 
 .send {
